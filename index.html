@@ -3,41 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Portfolio Game Dev Pixel Art – mkatedes</title>
+    <title>Portfolio Game Dev – mkatedes</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
+    <nav id="navbar">
         <ul>
             <li><a href="#accueil">Accueil</a></li>
             <li><a href="#projets">Projets</a></li>
+            <li><a href="#about">À propos</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <header id="accueil">
-        <h1>👾 mkatedes | Game Dev Portfolio</h1>
-        <p>Univers créatif & pixelisé :<br>Demos, prototypes & jeux indés.</p>
+        <h1>mkatedes | Game Dev Portfolio</h1>
+        <p>Jeux, protos, expériences ludiques — pixel art & plus</p>
     </header>
     <section id="projets">
-        <h2>🎲 Mes Projets</h2>
+        <h2>Mes Projets</h2>
         <div class="grid">
             <div class="carre">
-                <span class="icon pixel"></span>
                 <h3>Pixel Dungeon</h3>
-                <p>Roguelike casual, 100% sprites custom.</p>
-                <a href="#">Découvrir</a>
+                <p>Roguelike casual, style old-school.</p>
+                <a href="#" class="btn-decouvrir">Découvrir</a>
             </div>
             <div class="carre">
-                <span class="icon pixel"></span>
                 <h3>Meteor Rain</h3>
-                <p>Arcade minimaliste, scoring infini.</p>
-                <a href="#">Découvrir</a>
+                <p>Arcade scoring, design minimaliste.</p>
+                <a href="#" class="btn-decouvrir">Découvrir</a>
             </div>
-            <!-- Ajoute d’autres projets ici -->
+            <div class="carre">
+                <h3>Story Lab</h3>
+                <p>Interactive fiction, thème spatial.</p>
+                <a href="#" class="btn-decouvrir">Découvrir</a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <div class="about-desc">
+            <p>
+                Passionné de création vidéoludique depuis l’enfance, j’aime explorer de nouveaux univers, prototypes et mécaniques de jeu.<br>
+                Curieux et autonome, je travaille sur des projets pixel art autant que des expériences plus modernes, alliant narration et gameplay.
+            </p>
+        </div>
+        <div class="about-wrapper">
+            <div class="about-xp">
+                <h3>Expériences</h3>
+                <ul>
+                    <li>Développeur indépendant – jeux 2D, 3D & mobiles</li>
+                    <li>Participations à des Game Jams (Ludum Dare, Game Maker’s Toolkit…)</li>
+                    <li>Collaborations graphisme et sound design indé</li>
+                    <li>Mentorat pour débutants en développement Unity & Construct</li>
+                </ul>
+            </div>
+            <div class="about-skills">
+                <h3>Compétences</h3>
+                <ul>
+                    <li>Programmation : C#, GDScript, TypeScript, HTML/CSS</li>
+                    <li>Engines : Unity, Godot, Construct, Phaser</li>
+                    <li>Pixel Art & Animation 2D</li>
+                    <li>Conception de gameplay & level design</li>
+                    <li>Sound FX : création, intégration, design basique</li>
+                </ul>
+            </div>
         </div>
     </section>
     <footer id="contact">
         <p>Contact : <a href="mailto:exemple@email.com">exemple@email.com</a></p>
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
