@@ -93,13 +93,38 @@ section#projets {
     margin: auto;
 }
 
-    section#projets h2 {
-        text-align: center;
-        color: #ffd166;
-        font-family: 'Press Start 2P', monospace;
-        margin-bottom: 32px;
-        font-size: 19px;
-    }
+section#projets h2 {
+    text-align: center;
+    color: #ffd166;
+    font-family: 'Press Start 2P', monospace;
+    margin-bottom: 32px;
+    font-size: 19px;
+}
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin: 6px 0 8px 0;
+}
+
+.tag {
+    background: #2eb5ee;
+    color: #222A31;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 7px;
+    font-weight: bold;
+    box-shadow: 1px 1px 6px #222a3144;
+    letter-spacing: 1px;
+    border: 2px solid #ffe156;
+    transition: background 0.15s;
+}
+
+.tag:hover {
+    background: #ffe156;
+    color: #2eb5ee;
+}
 
 .grid {
     display: flex;
